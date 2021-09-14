@@ -1,12 +1,15 @@
-h1
-{
+*{
   color: #0065FC;
   font-family: 'Raleway', sans-serif;
 }
 
+#logo
+{
+  width: 10%;
+}
 #filtre
 {
-  display: flex;
+  display:flex;
   flex-direction: row;
   justify-content: flex-start;
 
@@ -15,12 +18,23 @@ h1
 {
   margin: auto;
 }
+.space
+{
 
-#onglet{
+  padding: 5px;
+}
+#onglet
+{
   color: #0065FC;
   display: flex;
-  flex-direction: row;
-  align-items: flex-end;
-  justify-content: space-evenly;
+/*  flex-direction: row*/
+  justify-content: flex-end;
+  /*flex-wrap: nowrap;*/
 
+
+
+
+  /*align-items: space-between;
+
+  */
 }
