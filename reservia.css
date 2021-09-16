@@ -1,12 +1,14 @@
 *{
-  color: #0065FC;
+  /*color: #0065FC; =couleur bleu
+color: #AAA; =couleur grise
+  */
   font-family: 'Raleway', sans-serif;
+  display: block;
 }
 
-#logo, #cannebiere
-{
-  width: 5%;
-}
+#logo{ width: 10%;}
+
+
 #filtre
 {
   display:flex;
@@ -27,17 +29,83 @@
 }
 #onglet
 {
-  color: #0065FC;
   display: flex;
 /*  flex-direction: row*/
   justify-content: flex-end;
+
   /*flex-wrap: nowrap;
   align-items: space-between;
   */
 }
+#onglet:hover /* au survol*/
+{  color: #0065FC;}
 
 #info
 {
   display: flex;
   flex-direction: row;
+}
+
+.icon{ color: #0065FC;}
+.unchecked{color: #AAA;}
+
+#cannebiere {
+
+  border-radius: 15px 15px 0 0 ;
+
+    background-position: center;
+
+
+  width: 100%;
+  height: 50%;
+}
+div.marseille
+{
+  width: 55%;
+  height: 300px;
+  margin:10px;
+  border-radius: 15px;
+    border: 5px  solid #ccc ;
+  display: flex;
+    flex-direction: column;
+/*flex-wrap: nowrap;*/
+}
+.box{     /* espase entre chaque box*/
+  width: 80%;
+    /*  display: grid;
+      grid-row-gap: 50px;
+      grid-template-columns: 1fr 1fr 1fr;
+    /*  grid-template-rows: 2fr;*/
+/*border-radius: 15px;
+  border: 5px  solid #ccc ;*/
+  padding: 5px;
+  margin: 5px;
+  /*float: left;*/
+  display: flex;
+  flex-direction: row;
+}
+.desc
+{
+  padding: 5px 0 5px 20px;
+  margin: 1px;
+}
+
+#hebergement
+{
+  background-color: grey;
+    border-radius: 10px;
+    width: 50%;
+  /*padding : 10px;
+
+  /*
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 2fr ;
+
+  /*flex-direction: row;
+  /*flex-wrap: nowrap;*/
+  /*padding: 0 5px;*/
+/*  float: left;*/
+
+  /*padding : 10px;*/
+  /*border-color: color: #AAA;*/
 }
