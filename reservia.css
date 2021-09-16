@@ -57,17 +57,18 @@ color: #AAA; =couleur grise
 
 
   width: 100%;
-  height: 50%;
+  height: 55%;
 }
 div.marseille
 {
-  width: 55%;
-  height: 300px;
-  margin:10px;
-  border-radius: 15px;
-    border: 5px  solid #ccc ;
+  width: auto;
+  height: 200px;
+  margin:0px;
+border-radius: 20px;
+    border: 5px  solid #fff ;
   display: flex;
     flex-direction: column;
+    background: white;
 /*flex-wrap: nowrap;*/
 }
 .box{     /* espase entre chaque box*/
@@ -79,22 +80,31 @@ div.marseille
 /*border-radius: 15px;
   border: 5px  solid #ccc ;*/
   padding: 5px;
-  margin: 5px;
-  /*float: left;*/
-  display: flex;
-  flex-direction: row;
+  /*float: left;*/;
 }
 .desc
 {
-  padding: 5px 0 5px 20px;
+/*  padding: 5px 0 5px 20px; */
   margin: 1px;
+  padding-left: 15px;
+  line-height: 2px;
+}
+.card{
+  display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 2fr;
+grid-column-gap: 1px;
+grid-row-gap: 1px;
 }
 
 #hebergement
 {
+/*  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;*/
   background-color: grey;
     border-radius: 10px;
-    width: 50%;
+    width: 70%;
   /*padding : 10px;
 
   /*
