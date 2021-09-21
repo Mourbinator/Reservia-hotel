@@ -50,8 +50,6 @@ color: #AAA; =couleur grise
 
   border-radius: 15px 15px 0 0 ;
     background-position: center;
-
-
   width: 100%;
   height: 55%;
 }
@@ -64,13 +62,15 @@ div.marseille
 {
   width: auto;
   height: 200px;
-  margin:0;
+  margin:5px;
 border-radius: 20px;
     border: 5px  solid #fff ;
   display: flex;
     flex-direction: column;
+    white-space: wrap;
+    line-height: 0.1;
     background: white;
-/*flex-wrap: nowrap;*/
+ /*flex-wrap: nowrap;*/
 }
 
 div.marseille1
@@ -86,7 +86,7 @@ border-radius: 20px;
 /*flex-wrap: nowrap;*/
 }
 .box{     /* espase entre chaque box*/
-  width: 70%;
+  width: 100%;
     /*  display: grid;
       grid-row-gap: 50px;
       grid-template-columns: 1fr 1fr 1fr;
@@ -94,7 +94,9 @@ border-radius: 20px;
 /*border-radius: 15px;
   border: 5px  solid #ccc ;*/
   padding: 5px;
+
   /*float: left;*/;
+
 }
 .box1{     /* espase entre chaque box*/
   width: 100%;
@@ -110,10 +112,13 @@ border-radius: 20px;
 .desc
 {
 /*  padding: 5px 0 5px 20px; */
-  margin: 1px;
-  padding-left: 15px;
-  line-height: 2px;
-  white-space: nowrap;
+  margin: -10px 5px -10px ;
+  padding:-10px;
+  line-height:12px;
+  white-space: wrap;
+  /*display: flex;
+  flex-direction: column;
+  flex-wrap: wrap-reverse;*/
 }
 .desc1
 {
@@ -135,6 +140,9 @@ grid-template-columns: 1fr 1fr 1fr;
 grid-template-rows: 2fr;
 grid-column-gap: 1px;
 grid-row-gap: 1px;
+width: 97%;
+margin: 1px;
+padding: px;
 }
 .card1{
   display:flex;
@@ -145,15 +153,17 @@ grid-row-gap: 1px;
 
 
 }
-#hebergement
-{
-/*  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;*/
-  background-color: grey;
-    border-radius: 10px;
-    width: 65%;
-  /*padding : 10px;
+#hebergement{
+  background-color: #AAA ;
+    border-radius: 15px;
+
+    width: 60%;
+  /*  margin-right: :0px;
+  padding-right: : 10px;
+  /*display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
   /*
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 2fr;
@@ -166,8 +176,33 @@ grid-row-gap: 1px;
   /*padding : 10px;*/
   /*border-color: color: #AAA;*/
 }
+.titre_hebergement{
+  /*display: flex;
+  align-items: flex-start;*/
+
+  padding: 10px ;
+  font-size: 1.3em;
+}
+.afficher{
+
+  margin: 10px;
+  padding: 10px 1px 1px 20px;
+  font-size: 1.3em;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
 #populaire{
   background-color: grey;
   border-radius: 15px;
   width: 35%;
+  margin: 10px;
+}
+
+#droite{
+  display: flex;
+  /*flex-wrap: nowrap;*/
+  flex-direction: column;
+  align-items: flex-end;
 }
