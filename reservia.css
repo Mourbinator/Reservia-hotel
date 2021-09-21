@@ -22,10 +22,7 @@ color: #AAA; =couleur grise
   margin: auto;
 /*  padding: 50px;*/
 }
-.space
-{
-
-  padding: 5px;
+.space{  padding: 5px;
 }
 #onglet
 {
@@ -52,18 +49,22 @@ color: #AAA; =couleur grise
 #cannebiere {
 
   border-radius: 15px 15px 0 0 ;
-
     background-position: center;
 
 
   width: 100%;
   height: 55%;
 }
+#cannebiere1{
+  border-radius: 15px 0 0 15px;
+  width: 40%;
+  height: 100%;
+}
 div.marseille
 {
   width: auto;
   height: 200px;
-  margin:0px;
+  margin:0;
 border-radius: 20px;
     border: 5px  solid #fff ;
   display: flex;
@@ -71,8 +72,21 @@ border-radius: 20px;
     background: white;
 /*flex-wrap: nowrap;*/
 }
+
+div.marseille1
+{
+  width: auto;
+  height: 130px;
+
+border-radius: 20px;
+    border: 5px  solid #fff ;
+  display: flex;
+    flex-direction: row;
+    background: white;
+/*flex-wrap: nowrap;*/
+}
 .box{     /* espase entre chaque box*/
-  width: 80%;
+  width: 70%;
     /*  display: grid;
       grid-row-gap: 50px;
       grid-template-columns: 1fr 1fr 1fr;
@@ -82,13 +96,39 @@ border-radius: 20px;
   padding: 5px;
   /*float: left;*/;
 }
+.box1{     /* espase entre chaque box*/
+  width: 100%;
+    /*  display: grid;
+      grid-row-gap: 50px;
+      grid-template-columns: 1fr 1fr 1fr;
+    /*  grid-template-rows: 2fr;*/
+/*border-radius: 15px;
+  border: 5px  solid #ccc ;*/
+  padding: 15px;
+  /*float: left;*/;
+}
 .desc
 {
 /*  padding: 5px 0 5px 20px; */
   margin: 1px;
   padding-left: 15px;
   line-height: 2px;
+  white-space: nowrap;
 }
+.desc1
+{
+/*  padding: 5px 0 5px 20px; */
+  margin-top: -15px;
+  /*margin-bottom: -55px;*/
+
+  padding-left: 15px;
+  line-height: 12px;
+/*  width: 60%;*/
+  white-space: wrap;
+
+
+}
+
 .card{
   display: grid;
 grid-template-columns: 1fr 1fr 1fr;
@@ -96,7 +136,15 @@ grid-template-rows: 2fr;
 grid-column-gap: 1px;
 grid-row-gap: 1px;
 }
+.card1{
+  display:flex;
+  flex-direction: column;
+  width: 90%;
+  /*align-items:flex-end;*/
 
+
+
+}
 #hebergement
 {
 /*  display: flex;
@@ -104,12 +152,11 @@ grid-row-gap: 1px;
   flex-wrap: wrap;*/
   background-color: grey;
     border-radius: 10px;
-    width: 70%;
+    width: 65%;
   /*padding : 10px;
-
   /*
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 2fr ;
+    grid-template-rows: 2fr;
 
   /*flex-direction: row;
   /*flex-wrap: nowrap;*/
@@ -118,4 +165,9 @@ grid-row-gap: 1px;
 
   /*padding : 10px;*/
   /*border-color: color: #AAA;*/
+}
+#populaire{
+  background-color: grey;
+  border-radius: 15px;
+  width: 35%;
 }
