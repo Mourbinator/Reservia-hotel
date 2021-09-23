@@ -1,19 +1,24 @@
 <!doctype html>
 <html>
   <head>
+    <title>RESERVIA HOTEL</title>
      <!-- <meta http-equiv="Refresh" content="30; url=reservia.html"> -->
     <meta charset="utf-8">
     <link rel="stylesheet" href="reservia.css" >
-    <title>RESERVIA HOTEL</title>
+
 
 
 
      <!--mise en place du kit pour les font/icones-->
 
-    <!--<script src="https://kit.fontawesome.com/b2b357a9c4.js" crossorigin="anonymous"></script> -->
+
+
 
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.1.0/css/v4-shims.min.css">
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -44,11 +49,18 @@
         <p><em>En plein cenre ville ou en pleine nature</em></p>
 
         <section id="localisation">
-          <!--intégration de barre de recherche et icone location-->
-          <i class=" fas fa fa-map-marker-alt"></i>
-          <div>Rechercher
-          </div>
+            <!--intégration de barre de recherche et icone location-->
+            <div class="marker">
+            <i class=" fas fa-map-marker-alt"></i>
+            </div>
+            <div class="ville_rech">
+            <input type="search" placeholder="Marseille,france">
+            </div>
+            <div class="rechercher">
+              <a href="#">Rechercher</a>
+            </div>
         </section>
+        
         <!--section des 4 filtres avec icones à placer-->
         <section id="filtre">
           <div >
@@ -71,7 +83,7 @@
      <!--icone information à placer-->
 <section id="milieu">
 <div id=hebergement>
-  <div class="titre_hebergement"><h4>Hébergements à marseille</h4> </div>
+  <div class="titre_hebergement"><h3>Hébergements à marseille</h3> </div>
 <div class="card">
   <!--cannebiere-->
 <div class="box">
@@ -195,7 +207,7 @@
   <div id="populaire">
   <div class="card1">
     <div class="populaire_titre">
-    <h4>Les plus populaires</h4> <i class="fas fa fa-chart-line" id="chart"></i>
+    <h3>Les plus populaires</h3> <i class="fas fa fa-chart-line" id="chart"></i>
     </div>
 
  <!--Hotel soleil du matin-->
@@ -264,8 +276,63 @@
 <!--ACTIVITE multi-size-image----------------------------------------------------------->
 
 <section id="activité">
-<h4></h4>
+<h3>Activités à Marseille</h3>
 
+  <div id="acti">
+
+    <div class="col1">
+        <img src="Reservia_img\images\activites\2_large\port.jpg" alt="vieux port" id="port">
+        <div class="titre_a">
+            <h5>Vieux port</h5>
+        </div>
+    </div>
+
+  <div class="col2">
+
+        <div class="colpomègues">
+          <img src="Reservia_img\images\activites\2_large\pomegues.jpg" alt="Fort de Pomègues" id="pomègues">
+          <div class="titre_a">
+              <h5>Fort de Pomégues</h5>
+          </div>
+
+        </div>
+
+          <div class="colfrioul">
+          <img src="Reservia_img\images\activites\3_medium\Frioul.jpg" alt="Iles du Frioul" id="frioul">
+          <div class="titre_a">
+              <h5>Iles du Frioul</h5>
+          </div>
+
+      </div>
+
+  </div>
+
+  <div class="col3">
+        <img src="Reservia_img\images\activites\1_xlarge\calanques.jpg" alt="Parc National des Calanques" id="port">
+        <div class="titre_a">
+            <h5>Parc National des Calanques</h5>
+        </div>
+  </div>
+
+  <div class="col4">
+
+        <div class="colgarde">
+          <img src="Reservia_img\images\activites\3_medium\garde.jpg" alt="Notre Dma de la Garde" id="garde">
+          <div class="titre_a">
+              <h5>Notre Dame de la Garde</h5>
+          </div>
+        </div>
+
+
+          <div class="colchamp">
+          <img src="Reservia_img\images\activites\3_medium\longchamp.jpg" alt="Parc Longchamp" id="longchamp">
+          <div class="titre_a">
+              <h5>Parc Longchamp</h5>
+          </div>
+        </div>
+
+
+</div>
 
 </section>
 
@@ -274,20 +341,20 @@
 
 
   </body>
-
+<!---FOOTER------------------------------------------------------>
   <footer>
         <div class="box_footer">
         <!--colonne 1-->
-          <div class="apropos">
+          <div class="foot1">
             <div class="font_footer">
-              <b>A propos</b>
+              <h5>A propos<h5>
             </div>
             <p>Fonctionnement du site</p>
             <p>Conditions générale de vente</p>
             <p>Données et confidentialité</p>
           </div>
           <!--colonne 2-->
-          <div class="heber_footer">
+          <div class="foot2">
             <div class="font_footer">
               <b>Nos hébergements</b>
             </div>
@@ -295,7 +362,7 @@
             <p>Soumettre votre hôtel</p>
           </div>
           <!--colonne 3-->
-          <div class="assistance">
+          <div class="foot1">
             <div class="font_footer">
               <b>Assistance</b>
             </div>

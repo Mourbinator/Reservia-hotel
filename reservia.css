@@ -2,26 +2,14 @@
   /*color: #0065FC; =couleur bleu
 color: #AAA; =couleur grise
   */
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway 500', sans-serif;
   display: block;
 }
 
 #logo{ width: 10%;}
 
 
-#filtre
-{
-  display:flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  padding: 20px;
 
-}
-.filtre1
-{
-  margin: auto;
-/*  padding: 50px;*/
-}
 .space{  padding: 5px;
 }
 #onglet
@@ -34,8 +22,82 @@ color: #AAA; =couleur grise
   align-items: space-between;
   */
 }
-#onglet:hover /* au survol*/
-{  color: #0065FC;}
+.space:hover /* au survol*/
+{
+  color: #0065FC;
+  border-top: 5px solid;
+  border-width: thin;
+}
+#localisation{
+  display: flex;
+}
+.marker{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px 0 0 10px;
+  background-color: #f2f2f2;
+  height:50px;
+  width: 50px;
+}
+.ville_rech input{
+  height: 50px;
+  width: 200px;
+  border-color: #f2f2f2 solid;
+  font-weight: bold;
+    font-size: 1em;
+}
+.rechercher{
+  height: 50px;
+  width: 100px;
+  border-radius: 0 10px 10px 0;
+  background-color:#0065FC;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rechercher a{
+  color: white;
+  text-decoration: none;
+}
+
+
+#filtre
+{
+  display:flex;
+  flex-direction: row;
+  /*justify-content: flex-start;*/
+  padding: 20px;
+  font-size: 1em;
+
+}
+.filtre1:hover{
+  background-color: #DEEBFF;
+}
+.filtre1
+{
+  font-size: 1em;
+  font-weight: bold;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  border: 2px solid #AAA;
+  border-radius: 50px;
+  padding-right: 20px;
+/*  padding: 50px;*/
+}
+.filtre1 i{
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  background-color: #DEEBFF;
+  color: #0065FC;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
 
 #info
 {
@@ -43,6 +105,8 @@ color: #AAA; =couleur grise
   flex-direction: row;
 }
 
+
+/************HEBERGEMENT*******************************/
 .icon{ color: #0065FC;}
 .unchecked{color: #AAA;}
 
@@ -85,6 +149,7 @@ border-radius: 20px;
     background: white;
 /*flex-wrap: nowrap;*/
 }
+
 .box{     /* espase entre chaque box*/
   width: 100%;
     /*  display: grid;
@@ -130,8 +195,6 @@ border-radius: 20px;
   line-height: 12px;
 /*  width: 60%;*/
   white-space: wrap;
-
-
 }
 
 .card{
@@ -156,21 +219,6 @@ margin: 1px;
   background-color: #AAA ;
     border-radius: 15px;
     width: 60%;
-  /*  margin-right: :0px;
-  padding-right: : 10px;
-  /*display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    flex-wrap: wrap;
-  /*    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 2fr;
-
-  /*flex-direction: row;
-  /*flex-wrap: nowrap;*/
-  /*padding: 0 5px;*/
-/*  float: left;*/
-  /*padding : 10px;*/
-  /*border-color: color: #AAA;*/
 }
 .titre_hebergement{
   /*display: flex;
@@ -203,4 +251,108 @@ margin: 1px;
 }
 #milieu{
   display: flex;
+  padding: 10px;
+  margin: 20px;
+}
+/****************************activité*******************/
+.titre_a{
+  margin: 10px 10px 10px ;
+  font-weight: bold;
+
+}
+#port, #pomègues, #frioul, #garde, #longchamp{
+  border-radius: 15px 15px 0 0;
+
+}
+#port{
+  height: 350px;
+  width: 100%;
+}
+
+#pomègues{ height: 190px;
+  width: 100%;
+  margin-bottom: 0px;
+}
+#frioul{
+  height: 110px;
+  width: 100%;
+}
+#garde{
+  height: 150px;
+  width: 100%;
+}
+#longchamp{
+  height: 150px;
+  width: 100%;
+}
+.colchamp{
+}
+.col1,.col3{
+  width: 30%;
+}
+
+.col1, .col3,.colpomègues,.colfrioul,.colgarde,.colchamp{
+
+  border-radius: 15px;
+  box-shadow: 0 5px 10px 0;
+}
+
+
+/*.coldouble{
+  display: flex;
+  flex-direction: column;
+}*/
+.col2,.col4{
+  display: flex;
+  flex-direction: column;
+
+}
+#acti{
+  /*border: 1px solid;*/
+  display: flex;
+  flex-direction: row;
+  /*margin: 20px;*/
+  justify-content: space-between;
+}
+#activité{
+  border: 1px solid;
+  border-color: grey;
+  padding: 20px;
+  margin: 20px;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*****************footer*********************************/
+
+.foot1{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+ padding-left: 20px;
+ padding-top: 20px;
+ margin-bottom: 20px;
+ line-height: 0.1em;
+}
+.foot2{
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 20px;
+}
+.box_footer{
+  display: flex;
+  flex-direction: row;
+  background-color: #AAA;
 }
