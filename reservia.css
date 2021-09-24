@@ -6,28 +6,46 @@ color: #AAA; =couleur grise
   display: block;
 }
 
-#logo{ width: 10%;}
 
+#logo{ width: auto;
+  height: 50px;
+  margin-right: auto;
+}
 
+header{
+  display: flex;
 
-.space{  padding: 5px;
 }
 #onglet
 {
   display: flex;
 /*  flex-direction: row*/
   justify-content: flex-end;
-
+  font-weight: bold;
+  font-size: 1em;
   /*flex-wrap: nowrap;
   align-items: space-between;
   */
 }
+.space{  padding: 5px;
+
+}
+#onglet a{
+
+  color:black;
+}
+.space a{
+text-decoration: none;
+}
+
 .space:hover /* au survol*/
 {
   color: #0065FC;
-  border-top: 5px solid;
+  border-top: 5px solid #0065FC ;
   border-width: thin;
+
 }
+
 .text_début{
   padding-left: 30px;
 }
@@ -126,7 +144,9 @@ color: #AAA; =couleur grise
 
 
 /************HEBERGEMENT*******************************/
-.icon{ color: #0065FC;}
+.icon{ color: #0065FC;
+
+}
 .unchecked{color: #f2f2f2;}
 
 #cannebiere {
@@ -176,14 +196,18 @@ border-radius: 20px;
 .desc
 {
 /*  padding: 5px 0 5px 20px; */
-  margin: -10px 5px -10px ;
-  padding:-10px;
+  /*margin: 10px -10px 5px -10px ;*/
+  /*padding-top: -100px;*/
+  padding-left: 5px;
+  margin-top:-20px;
   line-height:12px;
   white-space: wrap;
+  /*line-height: 10px;*/
   /*display: flex;
   flex-direction: column;
-  flex-wrap: wrap-reverse;*/
+  flex-wrap: wrap;*/
 }
+
 
 
 .card{
@@ -289,9 +313,6 @@ box-shadow: 0 5px 10px 0;
 
 
 
-
-
-
 /****Big box gauche et droite***********/
 #milieu{
   display: flex;
@@ -302,8 +323,9 @@ box-shadow: 0 5px 10px 0;
 
 /****************************activité*******************/
 .titre_a{
-  margin: 10px 10px 10px ;
+  margin: auto 10px 10px 10px ;
   font-weight: bold;
+  line-height: 0.1;
 
 }
 #port, #pomègues, #frioul, #garde, #longchamp{
@@ -311,7 +333,7 @@ box-shadow: 0 5px 10px 0;
 
 }
 #port{
-  height: 350px;
+  height: 370px;
   width: 100%;
 }
 
@@ -332,15 +354,20 @@ box-shadow: 0 5px 10px 0;
   width: 100%;
 }
 .colchamp{
+
 }
 .col1,.col3{
-  width: 30%;
+  width: 20%;
+  /*line-height: 1px;*/
+  border-bottom-width: 50px;
 }
 
 .col1, .col3,.colpomègues,.colfrioul,.colgarde,.colchamp{
 
   border-radius: 15px;
   box-shadow: 0 5px 10px 0;
+  margin: 10px;
+
 }
 
 
@@ -351,7 +378,7 @@ box-shadow: 0 5px 10px 0;
 .col2,.col4{
   display: flex;
   flex-direction: column;
-
+  width: 30%;
 }
 #acti{
   /*border: 1px solid;*/
@@ -361,13 +388,22 @@ box-shadow: 0 5px 10px 0;
   justify-content: space-between;
 }
 #activité{
-  border: 1px solid;
-  border-color: grey;
-  padding: 20px;
+  /*border: 1px solid;*/
+  /*padding: 20px;
   margin: 20px;*/
 }
 
 
+/*.card3{
+/*display: grid;
+grid-template-columns: 1fr ;
+grid-template-rows: 1fr ;
+grid-column-gap: 10px;
+grid-row-gap: 30px;
+width: 100%;
+margin: 0px;
+padding: 0px;
+}*/
 
 
 
@@ -383,22 +419,32 @@ box-shadow: 0 5px 10px 0;
 
 /*****************footer*********************************/
 
-.foot1{
-  display: grid;
-  grid-template-columns: 1fr;
+/*.foot1{
+/*  display: grid;
+  grid-template-columns: 1fr ;
   grid-template-rows: 1fr;
  padding-left: 20px;
  padding-top: 20px;
  margin-bottom: 20px;
  line-height: 0.1em;
-}
+ }*/
+
 .foot2{
   padding-left: 200px;
   padding-right: 200px;
   padding-top: 20px;
 }
 .box_footer{
-  display: flex;
-  flex-direction: row;
-  background-color: #AAA;
+  /*display: flex;
+  flex-direction: row;*/
+  background-color: #f2f2f2;
+  display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr;
+   padding-left: 20px;
+   padding-top: 20px;
+   margin-bottom: 20px;
+   line-height: 0.1em;
+
+
 }
