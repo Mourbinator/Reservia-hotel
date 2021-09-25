@@ -1,2 +1,2 @@
 # P2_Reservia
-reproduireu site à partir d'une maquette
+reproduire un site à partir d'une maquette
