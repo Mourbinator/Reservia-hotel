@@ -497,6 +497,19 @@ footer{
   .foot1{
     padding-bottom: 10px;
   }
+  #hebergement{
+    order: 2;
+    margin-top: 10px;
+  }
+  .titre_hebergement{
+    display: flex;
+    font-size: 1.6em;
+    /*justify-content: center;*/
+  }
+  .populaire_titre{
+
+  }
+
   #droite{
     display: flex;
     flex-wrap: nowrap;
@@ -572,9 +585,14 @@ footer{
     /* margin: 10px; */
 }
 .populaire_titre i {
-    padding-left: 69%;
+    padding-left: 0%;
 }
-
+.populaire_titre{
+  font-size: 1.4em;
+}
+.populaire_titre h3{
+  padding-right: 170px;
+}
 
 
 
