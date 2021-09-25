@@ -258,7 +258,7 @@ margin: 1px;
   align-items: flex-start;
 }
 
-/*POPULAIRE DROITE**************************/
+/*******************POPULAIRE DROITE**************************/
 #droite{
   display: flex;
   /*flex-wrap: nowrap;*/
@@ -293,7 +293,7 @@ background-color: #f2f2f2;
   padding-left: 150px;
 }
 .box1{     /* espase entre chaque box*/
-  width: 100%;
+  /*width: 100%;*/
     /*  display: grid;
       grid-row-gap: 50px;
       grid-template-columns: 1fr 1fr 1fr;
@@ -335,7 +335,7 @@ box-shadow: 0 5px 10px 0;
 
 
 
-/****Big box gauche et droite***********/
+/***********Big box gauche et droite***********/
 #milieu{
   display: flex;
   padding: 10px;
@@ -392,7 +392,6 @@ box-shadow: 0 5px 10px 0;
 
 }
 
-
 /*.coldouble{
   display: flex;
   flex-direction: column;
@@ -400,7 +399,7 @@ box-shadow: 0 5px 10px 0;
 .col2,.col4{
   display: flex;
   flex-direction: column;
-  /*width: 30%;*/
+  width: 30%;
 }
 #acti{
   /*border: 1px solid;*/
@@ -408,7 +407,9 @@ box-shadow: 0 5px 10px 0;
   flex-direction: row;
   /*margin: 20px;*/
   justify-content: space-between;
+  line-height: 0.9em;
 }
+
 #activité{
   /*border: 1px solid;*/
   /*padding: 20px;
