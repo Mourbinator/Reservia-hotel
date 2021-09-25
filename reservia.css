@@ -1,4 +1,4 @@
-*{
+body{
   /*color: #0065FC; =couleur bleu
 color: #AAA; =couleur grise
   */
@@ -33,28 +33,35 @@ header{
 #onglet a{
 
   color:black;
+  text-decoration: none;
 }
-.space a{
+#onglet a:hover{
+    color: #0065FC;
+
+}
+/*.space a{
 text-decoration: none;
-}
+}*/
 
 .space:hover /* au survol*/
 {
   color: #0065FC;
-  border-top: 5px solid #0065FC ;
-  border-width: thin;
+  border-top: 2px solid #0065FC ;
 
+}
+.space a{
+  margin-bottom: 0px;
 }
 
 .text_début{
-  padding-left: 30px;
+  padding-left: 40px;
 }
 .text_début p{
   font-size: 0.9em;
 }
 #localisation{
   display: flex;
-  margin-left: 30px;
+  margin-left: 40px;
 }
 .marker{
   display: flex;
@@ -90,10 +97,11 @@ text-decoration: none;
 #filtre
 {
   display:flex;
+  flex-wrap: wrap;
   flex-direction: row;
-  /*justify-content: flex-start;*/
+  align-items: center;
   padding: 20px;
-  margin-left: 10px;
+  margin-left: 20px;
   font-size: 1em;
 
 }
@@ -235,8 +243,9 @@ margin: 1px;
 .titre_hebergement{
   /*display: flex;
   align-items: flex-start;*/
-  padding: 10px ;
-  font-size: 1.3em;
+  padding-left: 20px ;
+  padding-top: 10px;
+  /*font-size: 1.3em;*/
 }
 .afficher{
 
@@ -255,13 +264,19 @@ margin: 1px;
   /*flex-wrap: nowrap;*/
   flex-direction: column;
   align-items: flex-end;
-}
-#populaire{
   background-color: #f2f2f2;
+  border-radius: 15px;*/
+  width: 48%;
+  margin-left: 30px;
+}
+/*#populaire{
+background-color: #f2f2f2;
   border-radius: 15px;
   width: 90%;
-  margin: 10px;
+  /*margin: 10px;*/
 }
+
+
 .card1{
   display:flex;
   flex-direction: column;
@@ -385,7 +400,7 @@ box-shadow: 0 5px 10px 0;
 .col2,.col4{
   display: flex;
   flex-direction: column;
-  width: 30%;
+  /*width: 30%;*/
 }
 #acti{
   /*border: 1px solid;*/
@@ -399,8 +414,6 @@ box-shadow: 0 5px 10px 0;
   /*padding: 20px;
   margin: 20px;*/
 }
-
-
 /*.card3{
 /*display: grid;
 grid-template-columns: 1fr ;
@@ -411,16 +424,6 @@ width: 100%;
 margin: 0px;
 padding: 0px;
 }*/
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -441,10 +444,15 @@ padding: 0px;
   padding-right: 200px;
   padding-top: 20px;
 }
+
+footer{
+    background-color: #f2f2f2;
+
+}
 .box_footer{
   /*display: flex;
   flex-direction: row;*/
-  background-color: #f2f2f2;
+
   display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
     grid-template-rows: 1fr;
@@ -452,6 +460,107 @@ padding: 0px;
    padding-top: 20px;
    margin-bottom: 20px;
    line-height: 0.1em;
+
+
+}
+/*****************MEDIA QUERYS********************************/
+@media screen and (max-width: 768px)
+{
+  body{
+    max-width: 768px;
+    width: auto;
+  }
+  .box_footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px;
+  }
+  .foot1{
+    padding-bottom: 10px;
+  }
+  #droite{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #f2f2f2;
+    border-radius: 15px;
+    width: 60%;
+    margin-top: 10px;
+    margin-left: 0;
+  }
+
+  #milieu{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 20px;
+    width: 150%;
+  }
+  .card{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 1px;
+  grid-row-gap: 1px;
+  width: 97%;
+  margin: 1px;
+  }
+
+  .card1{
+    display:flex;
+    flex-direction: column;
+    width: 95%;
+  }
+
+
+
+  #activité h3{
+    padding-left: 30px;
+  }
+  #port,#pomègues,#frioul,#garde,#longchamp{
+    height: 150px;
+  }
+  #acti {
+    /*  border: 1px solid;*/
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: flex-start;
+      margin: 20px;
+      justify-content: space-between;
+      width: 99%;
+  }
+  .col1, .col3, .colpomègues, .colfrioul, .colgarde, .colchamp
+   {
+    border-radius: 15px;
+    box-shadow: 0 5px 10px 0;
+    margin: 10px;
+    /*scroll-padding-block: auto;*/
+    width: 90%;
+}
+.col2, .col4 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+#populaire {
+    background-color: #f2f2f2;
+    border-radius: 15px;
+    width: 100%;
+    /* margin: 10px; */
+}
+.populaire_titre i {
+    padding-left: 69%;
+}
+
+
+
+
+
 
 
 }
