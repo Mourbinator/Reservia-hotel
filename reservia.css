@@ -342,6 +342,15 @@ box-shadow: 0 5px 10px 0;
   margin: 20px;
 }
 
+#milieu a{
+
+  color:black;
+  text-decoration: none;
+}
+#milieu a:hover{
+    color: #0065FC;
+}
+
 
 /****************************activité*******************/
 .titre_a{
@@ -414,6 +423,14 @@ box-shadow: 0 5px 10px 0;
   /*border: 1px solid;*/
   /*padding: 20px;
   margin: 20px;*/
+}
+#activité a{
+
+  color:black;
+  text-decoration: none;
+}
+#activité a:hover{
+    color: #0065FC;
 }
 /*.card3{
 /*display: grid;
