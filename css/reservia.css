@@ -184,28 +184,28 @@ header{
 
 }
 #cannebiere{
-  background-image: url("Reservia_img/images/hebergements/3_medium/cannebiere.jpg");
+  background-image: url("../images/hebergements/3_medium/cannebiere.jpg");
   background-size: cover;
 }
 #port1{
-  background-image: url("Reservia_img/images/hebergements/4_small/port.jpg");
+  background-image: url("../images/hebergements/4_small/port.jpg");
   background-size: cover;
 }
 
 #mouette{
-  background-image: url("Reservia_img/images/hebergements/4_small/mouette.jpg");
+  background-image: url("../images/hebergements/4_small/mouette.jpg");
   background-size: cover;
 }
 #mer{
-  background-image: url("Reservia_img/images/hebergements/4_small/mer.jpg");
+  background-image: url("../images/hebergements/4_small/mer.jpg");
   background-size: cover;
 }
 #panier{
-  background-image: url("Reservia_img/images/hebergements/4_small/panier.jpg");
+  background-image: url("../images/hebergements/4_small/panier.jpg");
   background-size: cover;
 }
 #amina{
-  background-image: url("Reservia_img/images/hebergements/4_small/amina.jpg");
+  background-image: url("../images/hebergements/4_small/amina.jpg");
   background-size: cover;
 }
 
@@ -302,17 +302,17 @@ margin: 1px;
     height: 100%;
 }
 #blanc{
-  background-image: url("Reservia_img/images/hebergements/3_medium/blanc.jpg");
+  background-image: url("../images/hebergements/3_medium/blanc.jpg");
   background-size: cover;
   background-position: center;
 }
 #eau{
-  background-image: url("Reservia_img/images/hebergements/3_medium/eau.jpg");
+  background-image: url("../images/hebergements/3_medium/eau.jpg");
   background-size: cover;
   background-position: center;
 }
 #matin{
-  background-image: url("Reservia_img/images/hebergements/4_small/matin.jpg");
+  background-image: url("../images/hebergements/4_small/matin.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -409,14 +409,14 @@ div.marseille1
 
 }
 #port{
-  background-image: url("Reservia_img/images/activites/2_large/port.jpg");
+  background-image: url("../images/activites/2_large/port.jpg");
     background-size: cover;
     background-position-x: center;
   height: 373px;
   width: 100%;
 }
 #calanques{
-  background-image: url("Reservia_img/images/activites/2_large/calanques.jpg");
+  background-image: url("../images/activites/2_large/calanques.jpg");
     background-size: cover;
     background-position-x: center;
     height: 373px;
@@ -424,7 +424,7 @@ div.marseille1
 }
 
 #pomègues{
-  background-image: url("Reservia_img/images/activites/2_large/pomegues.jpg");
+  background-image: url("../images/activites/2_large/pomegues.jpg");
     background-size: cover;
     background-position-y: center;
   height: 190px;
@@ -432,20 +432,20 @@ div.marseille1
   margin-bottom: 0px;
 }
 #frioul{
-  background-image: url("Reservia_img/images/activites/3_medium/Frioul.jpg");
+  background-image: url("../images/activites/3_medium/Frioul.jpg");
   background-size: cover;
   background-position-y: center;
   height: 110px;
   width: 100%;
 }
 #garde{
-  background-image: url("Reservia_img/images/activites/3_medium/garde.jpg");
+  background-image: url("../images/activites/3_medium/garde.jpg");
   background-size: cover;
   height: 150px;
   width: 100%;
 }
 #longchamp{
-  background-image: url("Reservia_img/images/activites/3_medium/longchamp.jpg");
+  background-image: url("../images/activites/3_medium/longchamp.jpg");
     background-size: cover;
     background-position-y: center;
   height: 150px;
@@ -775,6 +775,5 @@ nav{
 #filtre h4 {
     margin-right: auto;
 }
-
 
 }
