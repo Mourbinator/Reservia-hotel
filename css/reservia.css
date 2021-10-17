@@ -224,7 +224,7 @@ border-radius: 20px;
     border: 5px  solid #fff ;
   display: flex;
     flex-direction: column;
-    white-space: wrap;
+    white-space: normal;
     line-height: 0.1;
     background: white;
     box-shadow: 3px 5px 5px  #e2e2e2;
@@ -242,7 +242,7 @@ border-radius: 20px;
   padding-left: 5px;
   margin-top:-15px;
   line-height:12px;
-  white-space: wrap;
+  white-space: normal;
 
 }
 .desc p{
@@ -364,7 +364,7 @@ div.marseille1
   padding-left: 15px;
   line-height: 12px;
   width: 60%;
-  white-space: wrap;
+  white-space: normal;
 }
 .desc1 p{
   font-size: 0.9em;
