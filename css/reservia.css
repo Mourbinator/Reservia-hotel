@@ -69,7 +69,7 @@ header{
 }
 .text_début p{
   font-size: 0.9em;
-  margin:10px 0 10px 0;
+  margin:15px 0 15px 0;
 }
 .text_début h3{
   margin-bottom: 0;
@@ -687,19 +687,6 @@ footer
     padding-left: 0;
   }
 
-
-
-  .box_footer
-  {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin: 10px;
-  }
-  .foot1
-  {
-    padding-bottom: 10px;
-  }
   /*partie milieu */
 
   #eau, #matin
@@ -745,7 +732,6 @@ footer
   }
 
 
-
   #droite{
     display: flex;
     flex-wrap: nowrap;
@@ -784,6 +770,18 @@ footer
   }
   .box1{
     width: 100%;
+  }
+
+  .box_footer
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px;
+  }
+  .foot1
+  {
+    padding-bottom: 10px;
   }
 
   /*********PARTIE 3 ACTIVITE**********/
@@ -864,6 +862,7 @@ footer
   .populaire_titre
   {
     font-size: 1.4em;
+    justify-content: space-between;
   }
 
   .populaire_titre h3
