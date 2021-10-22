@@ -59,8 +59,8 @@ header{
   margin-bottom: 0px;
 }
 .space3{
-  padding-left: -30px;
-  padding-top: 6px;
+  margin-left: -3px;
+  padding-top: 5px;
   font-weight: bold;
 }
 
@@ -78,6 +78,12 @@ header{
   display: flex;
   margin-left: 40px;
 }
+/*bouton telephone hidden*/
+#btn_phone
+{
+  display:none;
+}
+
 .marker{
   display: flex;
   justify-content: center;
@@ -90,7 +96,7 @@ header{
 .ville_rech input{
   height: 50px;
   width: 200px;
-  border-color: #f2f2f2 solid;
+  border: #f2f2f2 solid;
   font-weight: bold;
     font-size: 1em;
 }
@@ -190,37 +196,37 @@ header{
 #cannebiere
 {
   background-image: url("../images/hebergements/3_medium/cannebiere.jpg");
-  background-size: 100% 100%;
+  background-size: cover;
   background-position: center;
 
 }
 #port1
 {
   background-image: url("../images/hebergements/4_small/port.jpg");
-  background-size: 100% 100%;
+  background-size: cover;
   background-position: center;
 }
 
 #mouette
 {
   background-image: url("../images/hebergements/4_small/mouette.jpg");
-  background-size: 100% 100%;
+  background-size:cover;
   background-position: center;
 }
 #mer
 {
   background-image: url("../images/hebergements/4_small/mer.jpg");
-  background-size: 100% 100%;
+  background-size: cover;
   background-position: center;
 }
 #panier{
   background-image: url("../images/hebergements/4_small/panier.jpg");
-  background-size: 100% 100%;
+  background-size: cover;
   background-position: center;
 }
 #amina{
   background-image: url("../images/hebergements/4_small/amina.jpg");
-  background-size: 100% 100%;
+  background-size: cover;
   background-position: center;
 }
 
@@ -438,7 +444,7 @@ margin: 1px;
 #port
 {
   background-image: url("../images/activites/2_large/port.jpg");
-    background-size: 210% 100%;
+    background-size: cover;
     background-position-x: center;
   height: 390px;
   width: 100%;
@@ -446,7 +452,7 @@ margin: 1px;
 #calanques
 {
   background-image: url("../images/activites/2_large/calanques.jpg");
-    background-size: 200% 100%;
+    background-size: cover;
     background-position-x: center;
     height: 390px;
     width: 100%;
@@ -455,9 +461,9 @@ margin: 1px;
 #pomègues
 {
   background-image: url("../images/activites/2_large/pomegues.jpg");
-  background-size: 140% 210%;
-  background-position-y: -70px;
-  background-position-x: -50px;
+  background-size: cover;
+  /*background-position-y: -70px;
+  background-position-x: -50px;*/
   height: 190px;
   width: 100%;
   margin-bottom: 0px;
@@ -465,8 +471,8 @@ margin: 1px;
 #frioul
 {
   background-image: url("../images/activites/3_medium/Frioul.jpg");
-  background-size: 100% 160%;
-  background-position-y: -2px;
+  background-size: cover;
+  /*background-position-y: -2px;*/
   height: 110px;
   width: 100%;
 }
@@ -474,15 +480,15 @@ margin: 1px;
 #garde
 {
   background-image: url("../images/activites/3_medium/garde.jpg");
-  background-size: 100% 100%;
+  background-size: cover;
   height: 150px;
   width: 100%;
 }
 
 #longchamp{
   background-image: url("../images/activites/3_medium/longchamp.jpg");
-  background-size: 110% 166%;
-  background-position-y: -30px;
+  background-size: cover;
+  /*background-position-y: -30px;*/
   height: 150px;
   width: 100%;
 }
@@ -581,6 +587,7 @@ footer
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
+    padding-right: 0;
   }
 
   #logo
@@ -641,11 +648,27 @@ footer
    {
     padding-left: 0px;
   }
-
+  /*btn recherche caché quérys*/
   #localisation
   {
-      margin-left: 0px;
+    display:none;
   }
+  #btn_phone
+  {
+    display:flex
+  }
+  .rechercher{
+    height: 50px;
+    width: 50px;
+    border-radius: 15px;
+    margin-left: -10px;
+    color:white;
+  }
+
+  /*#localisation
+  {
+      margin-left: 0px;
+  }*/
 
   #filtre
   {
@@ -681,12 +704,12 @@ footer
 
   #eau, #matin
   {
-    background-size: 140% 100%;
+    background-size: cover;
   }
   #blanc
   {
-    background-size: 100% 200%;
-    background-position-y: 177px;
+    background-size: cover;
+    /*background-position-y: 177px;*/
   }
 
   #hebergement
@@ -698,20 +721,20 @@ footer
 
   #mer
   {
-    background-size: 100% 298%;
-    background-position-y: -112px;
+    background-size: cover;
+    /*background-position-y: -112px;*/
   }
 
   #amina
   {
-    background-size: 100% 300%;
-    background-position-y: -94px;
+    background-size: cover;
+    /*background-position-y: -94px;*/
   }
 
   #cannebiere,#mouette,#port1,#panier
   {
-    background-size: 100% 149%;
-    background-position-y: -15px;
+    background-size: cover;
+    /*background-position-y: -15px;*/
   }
 
 
@@ -777,20 +800,20 @@ footer
 
   #port,#calanques
   {
-    background-size: 100% 144%;
+    background-size: cover;
   }
 
   #frioul,#garde,#longchamp
   {
-    background-size: 100% 156%;
-    background-position-y: -8px;
+    background-size: cover;
+    /*background-position-y: -8px;*/
   }
 
   #pomègues
   {
-    background-size: 115% 500%;
+    background-size: cover;
     background-position-x: center;
-    background-position-y: 460px;
+    /*background-position-y: 460px;*/
   }
 
 
@@ -862,11 +885,11 @@ footer
 
   #cannebiere,#port1,#mouette,#mer,#panier,#amina
   {
-    background-size: 100% 100%;
+    background-size: cover;
   }
 
   #blanc,#eau,#matin{
-    background-size: 100% 160%;
+    background-size: cover;
   }
 
   /*activite*/
