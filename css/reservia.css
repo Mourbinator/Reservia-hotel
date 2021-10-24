@@ -1,25 +1,31 @@
-body{
+body
+{
   font-family: 'Raleway', sans-serif;
   color:black;
 }
 
-nav{
+nav
+{
   display: flex;
   margin-right: 10px;
+  margin-top:-8px;
 }
 
-#logo{
+#logo
+{
   margin-right: auto;
 }
 
-#logo img{
+#logo img
+{
   width: auto;
   height: 50px;
   margin-right: auto;
   padding-left: 30px;
 }
 
-header{
+header
+{
   display: flex;
   padding-right: 40px;
 
@@ -31,16 +37,20 @@ header{
   font-size: 1em;
 
 }
-.space{  padding: 5px;
-  margin-right:30px;
+.space
+{
+  padding-top: 13px;
+  margin-right:39px;
 
 }
-#onglet a{
+#onglet a
+{
 
   color:black;
   text-decoration: none;
 }
-#onglet a:hover{
+#onglet a:hover
+{
     color: #0065FC;
 
 }
@@ -53,28 +63,35 @@ header{
 
 }
 /*temp*/
-.space3 a{
+.space3 a
+{
   text-decoration: none;
   color: #0065FC;
   margin-bottom: 0px;
 }
-.space3{
-  margin-left: -3px;
-  padding-top: 5px;
+.space3
+{
+  margin-left: -5px;
+  padding-top: 13px;
+  margin-top:-8px;
   font-weight: bold;
 }
 
-.text_début{
+.text_début
+{
   padding-left: 40px;
 }
-.text_début p{
+.text_début p
+{
   font-size: 0.9em;
   margin:15px 0 15px 0;
 }
-.text_début h3{
+.text_début h3
+{
   margin-bottom: 0;
 }
-#localisation{
+#localisation
+{
   display: flex;
   margin-left: 40px;
 }
@@ -84,7 +101,8 @@ header{
   display:none;
 }
 
-.marker{
+.marker
+{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -93,14 +111,16 @@ header{
   height:50px;
   width: 50px;
 }
-.ville_rech input{
+.ville_rech input
+{
   height: 50px;
   width: 200px;
   border: #f2f2f2 solid;
   font-weight: bold;
     font-size: 1em;
 }
-.rechercher{
+.rechercher
+{
   height: 50px;
   width: 100px;
   border-radius: 0 10px 10px 0;
@@ -303,20 +323,20 @@ margin: 1px;
   align-items: flex-start;
 }
 
-/*******************POPULAIRE DROITE**************************/
+/*******************POPULAIRE DROITE***************/
 #droite{
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: #f2f2f2;
   border-radius: 15px;
-  width: auto;
+  width: 39%;
   margin-left: 30px;
 }
 
 
 
-  /**************popolaire part***********/
+  /**************popolaire part image***********/
   #blanc,#eau,#matin
   {
       border-radius: 15px 0 0 15px;
@@ -352,21 +372,30 @@ margin: 1px;
     width: 100%;
   }
 
+  #populaire
+   {
+      background-color: #f2f2f2;
+      border-radius: 15px;
+      width: 100%;
+    }
+
   .populaire_titre{
     display: flex;
     flex-direction: row;
     align-items: center;
     padding-left: 15px;
+    justify-content: space-between;
     white-space: nowrap;
   }
 
-  .populaire_titre h3{
+  .populaire_titre h3
+  {
     padding-right: 15px;
   }
 
-  .populaire_titre i{
-    padding-left: 160px;
-    padding-right: 20px;
+  .populaire_titre i
+  {
+      padding-right: 20px;
   }
   .box1{     /* espase entre chaque box*/
       padding: 15px;
