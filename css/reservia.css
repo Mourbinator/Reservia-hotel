@@ -445,7 +445,7 @@ margin: 1px;
 {
   background-image: url("../images/activites/2_large/port.jpg");
     background-size: cover;
-    background-position-x: center;
+    background-position: center;
   height: 390px;
   width: 100%;
 }
@@ -453,7 +453,7 @@ margin: 1px;
 {
   background-image: url("../images/activites/2_large/calanques.jpg");
     background-size: cover;
-    background-position-x: center;
+    background-position: center;
     height: 390px;
     width: 100%;
 }
@@ -462,8 +462,8 @@ margin: 1px;
 {
   background-image: url("../images/activites/2_large/pomegues.jpg");
   background-size: cover;
-  /*background-position-y: -70px;
-  background-position-x: -50px;*/
+  background-position: center;
+
   height: 190px;
   width: 100%;
   margin-bottom: 0px;
@@ -472,7 +472,7 @@ margin: 1px;
 {
   background-image: url("../images/activites/3_medium/Frioul.jpg");
   background-size: cover;
-  /*background-position-y: -2px;*/
+  background-position: center;
   height: 110px;
   width: 100%;
 }
@@ -481,6 +481,7 @@ margin: 1px;
 {
   background-image: url("../images/activites/3_medium/garde.jpg");
   background-size: cover;
+  background-position: center;
   height: 150px;
   width: 100%;
 }
@@ -488,7 +489,7 @@ margin: 1px;
 #longchamp{
   background-image: url("../images/activites/3_medium/longchamp.jpg");
   background-size: cover;
-  /*background-position-y: -30px;*/
+  background-position: center;
   height: 150px;
   width: 100%;
 }
@@ -709,19 +710,19 @@ footer
   #mer
   {
     background-size: cover;
-    /*background-position-y: -112px;*/
+    background-position: center;
   }
 
   #amina
   {
     background-size: cover;
-    /*background-position-y: -94px;*/
+    background-position: center;
   }
 
   #cannebiere,#mouette,#port1,#panier
   {
     background-size: cover;
-    /*background-position-y: -15px;*/
+    background-position: center;
   }
 
 
@@ -799,19 +800,21 @@ footer
   #port,#calanques
   {
     background-size: cover;
+    background-position: center;
   }
 
   #frioul,#garde,#longchamp
   {
     background-size: cover;
-    /*background-position-y: -8px;*/
+    background-position: center;
+
   }
 
   #pomègues
   {
     background-size: cover;
     background-position-x: center;
-    /*background-position-y: 460px;*/
+
   }
 
 
@@ -885,10 +888,12 @@ footer
   #cannebiere,#port1,#mouette,#mer,#panier,#amina
   {
     background-size: cover;
+    background-position: center;
   }
 
   #blanc,#eau,#matin{
     background-size: cover;
+    background-position: center;
   }
 
   /*activite*/
