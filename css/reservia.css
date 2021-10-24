@@ -310,7 +310,7 @@ margin: 1px;
   align-items: center;
   background-color: #f2f2f2;
   border-radius: 15px;
-  width: 48%;
+  width: auto;
   margin-left: 30px;
 }
 
@@ -357,6 +357,7 @@ margin: 1px;
     flex-direction: row;
     align-items: center;
     padding-left: 15px;
+    white-space: nowrap;
   }
 
   .populaire_titre h3{
