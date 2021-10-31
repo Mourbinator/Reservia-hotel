@@ -122,7 +122,7 @@ header
   font-weight: bold;
     font-size: 1em;
 }
-.rechercher{
+.rechercher {
   height: 50px;
   width: 100px;
   border-radius: 0 10px 10px 0;
@@ -130,6 +130,11 @@ header
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.rechercher i
+{
+  display: none;
 }
 .rechercher a{
   color: white;
@@ -681,20 +686,32 @@ footer
     padding-left: 0px;
   }
   /*btn recherche caché quérys*/
-  #localisation
+  /*#localisation
   {
     display:none;
-  }
-  #btn_phone
+  } */
+
+  /* #btn_phone
   {
     display:flex
-  }
-  .rechercher{
+  } */
+
+
+  .rechercher {
     height: 50px;
     width: 50px;
     border-radius: 15px;
     margin-left: -10px;
     color:white;
+  }
+  .rechercher i{
+    display: inline-block;
+  }
+
+  .rechercher span
+  {
+    display: none;
+  
   }
 
   /*#localisation
