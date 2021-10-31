@@ -3,6 +3,9 @@ body
   font-family: 'Raleway', sans-serif;
   color:black;
 }
+.block{
+  max-width: 1400px;
+}
 
 nav
 {
@@ -114,13 +117,12 @@ header
 .ville_rech input
 {
   height: 50px;
-  width: 200px;
+  width: 100%;
   border: #f2f2f2 solid;
   font-weight: bold;
     font-size: 1em;
 }
-.rechercher
-{
+.rechercher{
   height: 50px;
   width: 100px;
   border-radius: 0 10px 10px 0;
@@ -569,12 +571,12 @@ margin: 1px;
 
 
 
-.foot2
+/*.foot2
 {
   padding-left: 200px;
   padding-right: 200px;
   padding-top: 20px;
-}
+}*/
 
 footer
 {
@@ -601,7 +603,7 @@ footer
 
 
 /****************MEDIA QUERYS******************/
-@media (min-width: 300px) and (max-width: 768px)
+@media screen  and (max-width: 768px)
 {
   body
   {
@@ -609,6 +611,10 @@ footer
     width: auto;
     overflow-x: hidden;
   }
+
+  #logo img {
+     padding-left: 0;
+}
 
   /*barre de nav*/
 
@@ -663,7 +669,7 @@ footer
   {
     padding-top: 6px;
     grid-column: 3;
-    margin-left: 150px;
+    margin-left: 0;
     font-weight: bold;
 
   }
@@ -705,11 +711,12 @@ footer
   {
     padding: 0;
     margin-left: 0;
+    word-break: break-all;
   }
 
   #filtre h4
   {
-      padding-right: 200px;
+      padding-right: 50px;
       padding-left: 20px;
   }
 
@@ -760,6 +767,7 @@ footer
   {
     display: flex;
     font-size: 1.6em;
+    word-break: break-all;
   }
 
 
@@ -801,6 +809,7 @@ footer
   }
   .box1{
     width: 100%;
+    padding-left: 4px;
   }
 
   .box_footer
@@ -896,11 +905,13 @@ footer
   {
     font-size: 1.4em;
     justify-content: space-between;
+    word-break: break-all;
+    white-space: normal;
   }
 
   .populaire_titre h3
   {
-    padding-right: 170px;
+    /*padding-right: 170px;*/
   }
 
 
