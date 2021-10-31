@@ -571,12 +571,7 @@ margin: 1px;
 
 
 
-/*.foot2
-{
-  padding-left: 200px;
-  padding-right: 200px;
-  padding-top: 20px;
-}*/
+
 
 footer
 {
@@ -822,6 +817,7 @@ footer
   .foot1
   {
     padding-bottom: 10px;
+    word-break: break-all;
   }
 
   /*********PARTIE 3 ACTIVITE**********/
@@ -911,7 +907,7 @@ footer
 
   .populaire_titre h3
   {
-    /*padding-right: 170px;*/
+    padding-right: 0;
   }
 
 
