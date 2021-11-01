@@ -5,6 +5,7 @@ body
 }
 .block{
   max-width: 1400px;
+  margin:0;
 }
 
 nav
@@ -38,7 +39,6 @@ header
   display: flex;
   justify-content: flex-end;
   font-size: 1em;
-
 }
 .space
 {
@@ -266,8 +266,8 @@ header
 div.marseille
 {
   width: auto;
-  height: 200px;
-  margin:5px;
+  height: 185px;
+  margin:10px;
 border-radius: 20px;
     border: 5px  solid #fff ;
   display: flex;
@@ -711,7 +711,7 @@ footer
   .rechercher span
   {
     display: none;
-  
+
   }
 
   /*#localisation
@@ -754,6 +754,7 @@ footer
     order: 2;
     margin-top: 10px;
     width:100%;
+    background-color: #ffffff;
   }
 
   #mer
@@ -821,7 +822,7 @@ footer
   }
   .box1{
     width: 100%;
-    padding-left: 4px;
+    padding-left: 10px;
   }
 
   .box_footer
@@ -887,9 +888,8 @@ footer
   {
     border-radius: 15px;
     box-shadow: 0 5px 10px 0 #ccc;
-    margin: 0px;
+    margin-left: 1px;
     width: 100%;
-    margin-bottom:10px;
   }
 
   .col2, .col4
@@ -932,7 +932,7 @@ footer
 /*******************TABLETTE*********************************************/
 @media (min-width: 768px) and (max-width: 1024px)
 {
-  body{
+  .block{
     max-width: 1024px;
     width: auto;
     overflow-x: hidden;
@@ -954,10 +954,10 @@ footer
 
   #acti {
       display: grid;
-      grid-template-columns: 400px 690px;
-      grid-template-rows: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr;
       width: 100%;
-      grid-column-gap: 0px;
+      grid-column-gap: 35px;
   }
 
 
@@ -967,12 +967,12 @@ footer
   {
       display: flex;
       flex-direction: column;
-      width: 56%;
+      width: 100%;
   }
 
   .col1, .col3
   {
-      width: 80%;
+      width: 100%;
       border-bottom-width: 50px;
   }
 
@@ -987,7 +987,7 @@ footer
     flex-wrap: wrap;
     padding: 10px;
     margin: 0;
-    width: 100%;
+    width: auto;
   }
 
   #populaire
