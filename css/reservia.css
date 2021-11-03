@@ -5,7 +5,7 @@ body
 }
 .block{
   max-width: 1400px;
-  margin:0;
+  margin:0 auto;
 }
 
 nav
@@ -605,11 +605,14 @@ footer
 /****************MEDIA QUERYS******************/
 @media screen  and (max-width: 768px)
 {
-  body
+  body{
+    overflow-x: hidden;
+  }
+  .block
   {
     max-width: 768px;
     width: auto;
-    overflow-x: hidden;
+    margin:0 auto;
   }
 
   #logo img {
@@ -686,15 +689,10 @@ footer
     padding-left: 0px;
   }
   /*btn recherche caché quérys*/
-  /*#localisation
-  {
-    display:none;
-  } */
-
-  /* #btn_phone
-  {
-    display:flex
-  } */
+  #localisation
+   {
+        margin-left: 0;
+    }
 
 
   .rechercher {
@@ -932,10 +930,15 @@ footer
 /*******************TABLETTE*********************************************/
 @media (min-width: 768px) and (max-width: 1024px)
 {
+  body{
+    overflow-x: hidden;
+  }
+
   .block{
     max-width: 1024px;
+    margin 0 auto;
     width: auto;
-    overflow-x: hidden;
+
   }
   /*partie hebergement*/
 
