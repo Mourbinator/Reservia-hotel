@@ -153,6 +153,10 @@ header
   font-size: 1em;
 
 }
+.filtre0{
+  display:flex;
+}
+
 .filtre1:hover{
   background-color: #DEEBFF;
 }
@@ -288,8 +292,8 @@ border-radius: 20px;
 .desc
 {
   padding-left: 5px;
-  margin-top:-15px;
-  line-height:12px;
+  /*margin-top:-15px;
+  line-height:12px;*/
   white-space: normal;
 
 }
@@ -308,6 +312,7 @@ grid-row-gap: 1px;
 width: 97%;
 margin: 1px;
 }
+
 
 #hebergement{
   background-color: #f2f2f2 ;
@@ -422,18 +427,19 @@ margin: 1px;
 
   .desc1
   {
-    margin-top: -15px;
     padding-left: 15px;
     line-height: 12px;
     width: 60%;
     white-space: normal;
+    position:relative;
   }
   .desc1 p{
     font-size: 0.9em;
   }
 
   .desc1 .icon{
-    padding-top: 30px;
+    position: absolute;
+    bottom: 5px;
   }
 
 
@@ -675,6 +681,9 @@ footer
     grid-column: 3;
     margin-left: 0;
     font-weight: bold;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 
   }
 
@@ -712,6 +721,9 @@ footer
     display: none;
 
   }
+  .ville_rech{
+    width: 90%;
+  }
 
   /*#localisation
   {
@@ -720,15 +732,28 @@ footer
 
   #filtre
   {
-    padding: 0;
+    text-decoration: none;
     margin-left: 0;
-    word-break: break-all;
+    padding-left: 0;
   }
+
+  .filtre0{
+    display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  margin-left: 0px;
+  font-size: 1em;
+
+  }
+
 
   #filtre h4
   {
       padding-right: 50px;
-      padding-left: 20px;
+      padding-left: 8px;
+      margin-bottom: 0;
   }
 
   #info
@@ -778,7 +803,8 @@ footer
   .titre_hebergement
   {
     display: flex;
-    font-size: 1.6em;
+    font-size: 1.4em;
+    padding-left: 5px;
     word-break: break-all;
   }
 
@@ -813,11 +839,18 @@ footer
     width: 97%;
     margin: 1px;
   }
+  div.marseille{
+    margin: 5px auto;
+  }
 
   .card1{
     display:flex;
     flex-direction: column;
     width: 95%;
+  }
+
+  .box{
+    padding: 0;
   }
   .box1{
     width: 100%;
