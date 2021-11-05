@@ -164,7 +164,7 @@ header
 {
   font-size: 1em;
   font-weight: bold;
-  margin: 10px 15px 10px 0;
+  margin: 10px 0 10px 10px;
   display: flex;
   align-items: center;
   border: 2px solid #AAA;
