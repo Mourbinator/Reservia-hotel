@@ -164,12 +164,12 @@ header
 {
   font-size: 1em;
   font-weight: bold;
-  margin: 10px 5px;
+  margin: 10px;
   display: flex;
   align-items: center;
   border: 2px solid #AAA;
   border-radius: 50px;
-  padding-right: 20px;
+  padding-right: 15px;
 }
 
 .filtre1 i{
